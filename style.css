@@ -31,3 +31,11 @@ canvas {
     border-radius: 8px;
     border: 2px solid #333;
 }
+/* Mobile optimization */
+@media (max-width: 600px) {
+    .toolbar button {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
